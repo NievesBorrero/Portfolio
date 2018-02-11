@@ -67,6 +67,10 @@ nav > ul > li > a{
 	color: white;
 }
 
+nav > ul > li:hover{
+	background: #D32F2F;
+}
+
 nav ul{
 	line-height: 55px;
 }
@@ -189,7 +193,7 @@ section > h3{
 	font-style: italic;
 }
 
-.contact input{
+#contact input{
 	font-size: 16px;
 	width: 90%;
 	outline: none;
@@ -200,15 +204,15 @@ section > h3{
 	font-size: 0.8rem;
 }
 
-.contact div{
+#contact div{
 	margin-top: 20px;
 }
 
-.contact div > label{
+#contact div > label{
   color:#D32F2F;
 }
 
-.contact textarea{
+#contact textarea{
 	height: 100px;
 	border: 0.3px solid rgba(5,51,19,0.23);
 	margin: 20px 0px 20px;
@@ -223,7 +227,7 @@ footer{
 
 
 @media (min-width: 520px){
-	.init{
+	#init{
 		background: url('../images/fondo.JPG');
 		background-size: cover;	
 		background-attachment: fixed;
@@ -236,6 +240,10 @@ footer{
 @media (min-width: 1024px){	
 	main{
 		padding-left: 259px;
+	}
+
+	.menu{
+		display:none;
 	}
 
 	#about-me{

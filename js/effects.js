@@ -1,30 +1,36 @@
 
 $(document).ready(init);
  
-let visible = true;
- 
-function init(){	
-    $('.menu').click(function(event){
-        event.preventDefault();
-        if(visible == true){
-            $('nav').animate({
-                left: '0'
-            });
-            visible = false;
-        } else {
-            visible = true;
-            $('nav').animate({
-                left: '-100%'
-            });
-        }
-     $('.option').click(ocultar); 
-     $('main').click(ocultar);
-    });
+	let invisible = true;
 
- let ocultar =()=>{
-     visible = true;
-        $('nav').animate({
-            left: '-100%'
-        });
- }
+	let ocultar =()=>{
+	     	$('nav').animate({
+	            left: '-100%'
+	        });        
+	        invisible = true;
+	        //$(".menu").show();
+	     	        
+	 }
+	 
+	function init(){	
+			$('.menu').click(function(event){
+	        event.preventDefault();
+
+	        if(invisible == true){
+	            $('nav').animate({
+	                left: '0'
+	            });
+	            //$(".menu").hide();
+	            invisible = false;
+	        } 
+	        else {
+	            invisible = true;
+	            $('nav').animate({
+	                left: '-100%'
+	            });
+	        }
+	     $('.option').click(ocultar);
+	     $('main').click(ocultar);
+	    });	    
+
 };
