@@ -1,0 +1,42 @@
+* {
+  font-family: "Roboto"; }
+
+a {
+  color: #D32F2F; }
+
+#top {
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  padding-left: 10px; }
+  #top a {
+    text-decoration: none; }
+  #top p {
+    color: #757575; }
+  #top h2 {
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #D32F2F; }
+  #top > div {
+    margin: 0 auto; }
+
+.card {
+  box-shadow: 0 3px 6px rgba(3, 38, 14, 0.16), 0 3px 6px rgba(5, 51, 19, 0.23);
+  text-align: center;
+  background-color: white;
+  padding: 0px 10px 20px;
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 20px; }
+  .card > div {
+    margin: 50px 0px; }
+  .card > h3 {
+    background-color: #D32F2F;
+    color: white;
+    padding: 20px; }
+
+/*# sourceMappingURL=licencias.css.map */

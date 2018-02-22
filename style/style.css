@@ -133,7 +133,7 @@ nav > ul > li:hover i, nav > ul > li:hover a{
 }
 
 #about-me{
-	padding: 10px;
+	padding: 20px;
 }
 
 
@@ -508,7 +508,7 @@ footer a{
 		padding-left: 70px;
 	}
 
-	#about-me, section h3{
+	#about-me, section h3, #about-me, section p{
 		padding-left: 20px;
 	}
 
