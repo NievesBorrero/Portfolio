@@ -21,17 +21,21 @@ a {
   #top > div {
     margin: 0 auto; }
 
+main {
+  position: relative; }
+
 .card {
   box-shadow: 0 3px 6px rgba(3, 38, 14, 0.16), 0 3px 6px rgba(5, 51, 19, 0.23);
   text-align: center;
   background-color: white;
   padding: 0px 10px 20px;
-  width: 70%;
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 20px; }
+  width: 70%;
+  top: 20px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  vertical-align: middle; }
   .card > div {
     margin: 50px 0px; }
   .card > h3 {
